@@ -44,6 +44,10 @@ Click Edit ->  Go to Project Settings -> Click Quality
         
 Clike on File -> Build Settings -> Player Settings -> Navigate to XR Settings -> Make sure the Virtual Reality Supported box and the Vuforia Augmented Reality box are checked
 
+Clike on File -> Build Settings -> Player Settings -> Navigate to XR Settings -> Make sure the Virtual Reality Supported box and the Vuforia Augmented Reality box are checked
+    Virtual Reality Supported -> Under Virtual Reality SDKS -> Add Vuforia using the Plus sign in the bottom right
+
+
 Click on Window ->  Go to Vuforia Configuration
     Find Digital Eyewear 
 Change Device Type to “Digital Eyewear” 
@@ -60,6 +64,8 @@ Click File -> Save Project
 ### CHANGE BUILD/PLAYER SETTINGS
 
 Click File -> Build Settings 
+
+Select Universal Windows Platform in the Platform window
 
 Click “Player Settings” in the bottom left corner
         Scroll down to “Other Settings” 
@@ -82,12 +88,7 @@ SpatialPerception
         
         Check “Unity C# Projects” Box
     
-    Under “XR Settings” 
-        Check both 
-Virtual Reality Supported
-Under Virtual Reality SDKS
-Add Vuforia using the Plus sign in the bottom right
-Vuforia Augmented Reality
+    
 
 ### BUILDING THE PROJECT
 
